@@ -59,12 +59,20 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={17} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
-                <a
-                  href="tel:+2348000000000"
-                  className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
-                >
-                  +234&nbsp;(0)&nbsp;800&nbsp;000&nbsp;0000
-                </a>
+                <div className="flex flex-col gap-1">
+                  <a
+                    href="tel:+2348119539062"
+                    className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
+                  >
+                    0811&nbsp;953&nbsp;9062
+                  </a>
+                  <a
+                    href="tel:+2348039483955"
+                    className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
+                  >
+                    0803&nbsp;948&nbsp;3955
+                  </a>
+                </div>
               </li>
             </ul>
           </address>
