@@ -52,10 +52,10 @@ export default function Footer() {
               <li className="flex items-start gap-2 min-w-0">
                 <Mail size={17} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
                 <a
-                  href="mailto:info@foodoflifefoundation.org"
+                  href="mailto:connectwithfoodoflife@gmail.com"
                   className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm break-all min-w-0"
                 >
-                  info@foodoflifefoundation.org
+                  connectwithfoodoflife@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

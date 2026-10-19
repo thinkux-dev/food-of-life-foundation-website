@@ -31,10 +31,10 @@ export default function Contact() {
             <li className="flex items-start gap-3">
               <Mail size={19} className="mt-0.5 text-clay shrink-0" aria-hidden="true" />
               <a
-                href="mailto:info@foodoflifefoundation.org"
+                href="mailto:connectwithfoodoflife@gmail.com"
                 className="hover:text-clay transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
               >
-                info@foodoflifefoundation.org
+                connectwithfoodoflife@gmail.com
               </a>
             </li>
             <li className="flex items-start gap-3">
