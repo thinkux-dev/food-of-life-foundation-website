@@ -12,18 +12,12 @@ export default function ContactForm() {
   const [submitting, setSubmitting] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const mailtoHref = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(
-    `[Food of Life Foundation] ${reason} — from ${name}`
-  )}&body=${encodeURIComponent(
-    `Name: ${name}\nEmail: ${email}\nTopic: ${reason}\n\n${message}`
-  )}`;
-
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
 
     try {
-      const res = await fetch(`https://formsubmit.co/ajax/${RECIPIENT_EMAIL}`, {
+      await fetch(`https://formsubmit.co/ajax/${RECIPIENT_EMAIL}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -37,12 +31,6 @@ export default function ContactForm() {
           message,
         }),
       });
-
-      if (!res.ok) {
-        window.location.href = mailtoHref;
-      }
-    } catch {
-      window.location.href = mailtoHref;
     } finally {
       setSubmitting(false);
       setSent(true);
@@ -52,29 +40,23 @@ export default function ContactForm() {
   if (sent) {
     return (
       <div className="border border-line bg-paper-dim px-6 py-8 rounded-xl">
-        <p className="font-display text-xl text-dusk">Message sent.</p>
+        <p className="font-display text-xl text-dusk">Message received.</p>
         <p className="mt-2 text-[15px] text-ink-soft">
-          Thank you for reaching out — your message has been routed to{" "}
-          <span className="font-medium text-dusk">{RECIPIENT_EMAIL}</span> and
-          someone from the Food of Life Foundation team will reply soon.
+          Thank you for reaching out — someone from the Food of Life Foundation
+          team will reply soon.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <a href={mailtoHref} className="btn-outline text-[14px] py-2 px-4">
-            Also open in email app
-          </a>
-          <button
-            type="button"
-            onClick={() => {
-              setSent(false);
-              setName("");
-              setEmail("");
-              setMessage("");
-            }}
-            className="text-[14px] font-medium text-clay hover:underline px-2"
-          >
-            Send another message
-          </button>
-        </div>
+        <button
+          type="button"
+          onClick={() => {
+            setSent(false);
+            setName("");
+            setEmail("");
+            setMessage("");
+          }}
+          className="mt-5 text-[14px] font-medium text-clay hover:underline"
+        >
+          Send another message
+        </button>
       </div>
     );
   }
