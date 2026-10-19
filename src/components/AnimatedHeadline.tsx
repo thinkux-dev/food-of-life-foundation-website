@@ -2,7 +2,7 @@
 
 import { useWordCycle } from "@/hooks/useWordCycle";
 
-const WORDS = ["families", "widows", "children", "Kuje"];
+const WORDS = ["families", "widows", "children", "communities"];
 
 export default function AnimatedHeadline() {
   const { displayed, isTyping } = useWordCycle({
@@ -35,7 +35,7 @@ export default function AnimatedHeadline() {
           />
         </span>
       </span>{" "}
-      with dignity.
+      across Nigeria.
     </h1>
   );
 }

@@ -12,19 +12,19 @@ const focusAreas = [
   {
     icon: Utensils,
     title: "Food & Hunger Relief",
-    body: "Direct distribution of staple food packs, cartons, and cooking essentials to vulnerable households across Kuje communities so no family goes to bed hungry.",
+    body: "Direct distribution of staple food packs, cartons, and cooking essentials to vulnerable households across Abuja and Nigeria so no family goes to bed hungry.",
     image: images.motherBabyCarton,
   },
   {
     icon: HeartHandshake,
     title: "Mothers & Widows Care",
-    body: "Food provisions, personal visits, and livelihood partnerships that help widows and mothers in Kuje stand strong with dignity.",
+    body: "Food provisions, personal visits, and livelihood partnerships that help widows and mothers stand strong with dignity.",
     image: images.widowMarket,
   },
   {
     icon: Sprout,
     title: "Children & Orphanage Support",
-    body: "Nourishing meals, care, and outreach visits for orphans and school children in Kuje Area Council so every child can grow and learn in health.",
+    body: "Nourishing meals, care, and outreach visits for orphans and vulnerable children across Abuja and beyond so every child can grow and learn in health.",
     image: images.orphanageGroup,
   },
 ];
@@ -41,7 +41,7 @@ export default function Home() {
           {/* Text block */}
           <FadeIn variant="up" delay={80}>
             <p className="font-display italic text-lg text-clay mb-5">
-              Reaching the needy with food across the Nation — starting in Kuje, Abuja
+              Reaching the needy with food across the Nation
             </p>
 
             <AnimatedHeadline />
@@ -49,7 +49,7 @@ export default function Home() {
             <p className="mt-6 text-lg leading-relaxed text-ink-soft max-w-lg">
               Food of Life Foundation exists to fight hunger and restore hope —
               walking alongside vulnerable families, widows, and children in
-              Kuje Area Council, Abuja with practical food relief, welfare, and
+              Abuja and across Nigeria with practical food relief, welfare, and
               steady community care.
             </p>
 
@@ -58,7 +58,7 @@ export default function Home() {
                 Support an outreach
               </Link>
               <Link href="/outreach" className="btn-outline">
-                Watch Kuje outreach videos &amp; photos
+                Watch outreach videos &amp; photos
                 <ArrowUpRight size={16} />
               </Link>
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
               <div className="img-hover-overlay aspect-[4/5] sm:aspect-[5/6]">
                 <Image
                   src={images.heroChildren}
-                  alt="Food of Life Foundation volunteers handing food packs to children in Kuje, Abuja"
+                  alt="Food of Life Foundation volunteers handing food packs to children in Abuja, Nigeria"
                   fill
                   priority
                   sizes="(min-width: 1024px) 45vw, 90vw"
@@ -84,7 +84,7 @@ export default function Home() {
                     &ldquo;Reaching the needy with food across the Nation.&rdquo;
                   </p>
                   <p className="mt-1 text-[13px] text-ink-soft">
-                    On the ground in Kuje, Abuja.
+                    Rooted in Abuja, serving Nigeria.
                   </p>
                 </div>
               </FadeIn>
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="img-hover-overlay aspect-[4/3]">
               <Image
                 src={images.orphanageGroup}
-                alt="Food of Life Foundation team with children during an outreach in Kuje, Abuja"
+                alt="Food of Life Foundation team with children during an outreach in Abuja"
                 fill
                 sizes="(min-width: 1024px) 45vw, 90vw"
                 className="object-cover"
@@ -113,15 +113,15 @@ export default function Home() {
           <FadeIn variant="up" delay={120} className="order-1 lg:order-2">
             <div className="rule mb-6 max-w-[220px]" />
             <h2 className="font-display text-3xl md:text-4xl text-dusk leading-tight">
-              Meeting hunger and hardship right where families live in Kuje.
+              Meeting hunger and hardship right where families live.
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-ink-soft">
-              Across Kuje Area Council in Abuja, rising food costs and economic
-              pressure leave many mothers, orphans, and vulnerable households
-              uncertain of their next meal.
+              Across Abuja and communities throughout Nigeria, rising food costs
+              and economic pressure leave many mothers, orphans, and vulnerable
+              households uncertain of their next meal.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-soft">
-              Food of Life Foundation goes directly into Kuje streets, schools,
+              Food of Life Foundation goes directly into neighbourhoods, schools,
               and care homes — bringing food packs, cartons of nourishment, and
               genuine human connection with dignity and consistency.
             </p>
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="max-w-2xl">
               <div className="rule mb-6 max-w-[220px]" />
               <h2 className="font-display text-3xl md:text-4xl text-dusk leading-tight">
-                Three pillars. One table of hope for Kuje.
+                Three pillars. One table of hope across Nigeria.
               </h2>
             </div>
           </FadeIn>
@@ -173,14 +173,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Kuje Outreach Videos & Photos Showcase ─────────────── */}
+      {/* ── Outreach Videos & Photos Showcase ──────────────────── */}
       <section className="container-page py-20 md:py-28">
         <FadeIn variant="up">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
             <div className="max-w-xl">
               <div className="rule mb-6 max-w-[220px]" />
               <p className="font-display italic text-clay mb-2 flex items-center gap-2">
-                <Camera size={17} /> Field moments from Kuje, Abuja
+                <Camera size={17} /> Field moments from Abuja, Nigeria
               </p>
               <h2 className="font-display text-3xl md:text-4xl text-dusk leading-tight">
                 Videos &amp; pictures from our outreach on the ground.
@@ -266,7 +266,7 @@ export default function Home() {
               <div className="max-w-xl">
                 <div className="rule mb-6 max-w-[220px]" />
                 <h2 className="font-display text-3xl md:text-4xl text-dusk leading-tight">
-                  Upcoming outreaches in Kuje.
+                  What we&rsquo;re building next across Abuja &amp; Nigeria.
                 </h2>
               </div>
               <Link href="/campaigns" className="btn-ghost shrink-0">
@@ -319,12 +319,11 @@ export default function Home() {
           <FadeIn variant="up">
             <p className="font-display italic text-2xl md:text-3xl leading-snug max-w-3xl text-paper/95">
               &ldquo;When you place food in a mother&rsquo;s or child&rsquo;s
-              hands in Kuje, you do more than answer hunger for a day — you
-              remind an entire home that they are seen, valued, and not
-              forgotten.&rdquo;
+              hands, you do more than answer hunger for a day — you remind an
+              entire home that they are seen, valued, and not forgotten.&rdquo;
             </p>
             <p className="mt-6 text-gold-soft text-[15px] font-medium">
-              Food of Life Foundation — Kuje Outreach Team
+              Food of Life Foundation — Abuja, Nigeria
             </p>
           </FadeIn>
         </div>
@@ -336,11 +335,11 @@ export default function Home() {
           <div className="card-muted px-8 py-14 md:px-16 md:py-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div className="max-w-xl">
               <h2 className="font-display text-3xl text-dusk leading-tight">
-                Help us put food on the next family&rsquo;s table in Kuje.
+                Help us put food on the next family&rsquo;s table.
               </h2>
               <p className="mt-3 text-[16px] text-ink-soft leading-relaxed">
                 Every food carton, bag of grain, volunteer hour, or partnership
-                directly supports vulnerable households in Kuje Area Council, Abuja.
+                directly supports vulnerable households in Abuja and across Nigeria.
               </p>
             </div>
             <div className="flex flex-wrap gap-3 shrink-0">

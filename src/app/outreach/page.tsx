@@ -5,9 +5,9 @@ import { Camera, Film, MapPin, ArrowUpRight } from "lucide-react";
 import { outreachMedia } from "@/data/outreachMedia";
 
 export const metadata: Metadata = {
-  title: "Kuje Outreach Gallery — Food of Life Foundation",
+  title: "Outreach Gallery — Food of Life Foundation",
   description:
-    "Photos and videos from Food of Life Foundation's community food outreaches in Kuje Area Council, Abuja.",
+    "Photos and videos from Food of Life Foundation's community food outreaches in Abuja and across Nigeria.",
 };
 
 export default function OutreachGalleryPage() {
@@ -19,15 +19,15 @@ export default function OutreachGalleryPage() {
       <section className="container-page pt-14 md:pt-20 pb-14">
         <div className="max-w-2xl">
           <p className="font-display italic text-lg text-clay mb-4 flex items-center gap-2">
-            <MapPin size={18} /> Kuje Area Council, Abuja
+            <MapPin size={18} /> Abuja, FCT &amp; Across Nigeria
           </p>
           <h1 className="font-display text-4xl md:text-5xl text-dusk leading-tight">
-            Kuje Outreach Pictures &amp; Videos
+            Outreach Pictures &amp; Videos
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
             Every outreach tells a story of neighbours showing up for
-            neighbours. Browse moments captured during our food distributions and
-            community visits in Kuje, Abuja.
+            neighbours. Browse moments captured during our food distributions,
+            orphanage visits, and community outreaches in Abuja and beyond.
           </p>
         </div>
       </section>
@@ -107,10 +107,10 @@ export default function OutreachGalleryPage() {
         <div className="container-page py-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <h2 className="font-display text-2xl md:text-3xl text-dusk">
-              Be part of our next Kuje outreach.
+              Be part of our next food outreach.
             </h2>
             <p className="mt-2 text-[15px] text-ink-soft">
-              Sponsor food packs or join our volunteer team on the ground in Kuje.
+              Sponsor food packs or join our volunteer team in Abuja and across Nigeria.
             </p>
           </div>
           <Link href="/get-involved" className="btn-pill shrink-0">

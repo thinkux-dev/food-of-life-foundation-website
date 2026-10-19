@@ -57,9 +57,9 @@ export default function ContactForm() {
           className="w-full border border-line bg-paper px-4 py-3 text-[15px] rounded-lg outline-none focus:border-dusk transition-colors"
         >
           <option>Donating food or funds</option>
-          <option>Volunteering in Kuje</option>
+          <option>Volunteering with the Foundation</option>
           <option>Partnering with the Foundation</option>
-          <option>Referring a family in Kuje for support</option>
+          <option>Referring a family or community for support</option>
           <option>Something else</option>
         </select>
       </div>

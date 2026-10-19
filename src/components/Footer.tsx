@@ -13,8 +13,9 @@ export default function Footer() {
               Food of Life <span className="italic text-gold-soft">Foundation</span>
             </p>
             <p className="mt-4 text-[15px] leading-relaxed text-paper/60 max-w-xs">
-              Fighting hunger and restoring hope for vulnerable families, widows,
-              and children in Kuje Area Council, Abuja, and beyond.
+              Reaching the needy with food across the Nation — fighting hunger
+              and restoring hope for vulnerable families, widows, and children
+              in Abuja and across Nigeria.
             </p>
           </div>
 
@@ -24,7 +25,7 @@ export default function Footer() {
             <ul className="space-y-3 text-[15px] text-paper/70">
               <li><Link href="/about" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">About us</Link></li>
               <li><Link href="/what-we-do" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">What we do</Link></li>
-              <li><Link href="/outreach" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Kuje Outreach Gallery</Link></li>
+              <li><Link href="/outreach" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Outreach Gallery</Link></li>
               <li><Link href="/campaigns" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Campaigns</Link></li>
             </ul>
           </nav>
@@ -34,7 +35,7 @@ export default function Footer() {
             <p className="text-sm font-medium text-gold-soft mb-4">Get involved</p>
             <ul className="space-y-3 text-[15px] text-paper/70">
               <li><Link href="/get-involved#donate" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Donate</Link></li>
-              <li><Link href="/get-involved#volunteer" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Volunteer in Kuje</Link></li>
+              <li><Link href="/get-involved#volunteer" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Volunteer with us</Link></li>
               <li><Link href="/get-involved#partner" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Partner with us</Link></li>
               <li><Link href="/contact" className="hover:text-paper transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm">Contact us</Link></li>
             </ul>
@@ -46,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-3 text-[15px] text-paper/70">
               <li className="flex items-start gap-2">
                 <MapPin size={17} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
-                <span>Kuje Area Council, Abuja, FCT, Nigeria</span>
+                <span>Abuja, FCT, Nigeria</span>
               </li>
               <li className="flex items-start gap-2 min-w-0">
                 <Mail size={17} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
@@ -81,7 +82,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-14 pt-8 border-t border-paper/10 flex flex-col md:flex-row gap-3 justify-between text-[13px] text-paper/45">
           <p>© {new Date().getFullYear()} Food of Life Foundation. All rights reserved.</p>
-          <p>Serving communities across Kuje, Abuja, FCT, Nigeria.</p>
+          <p>Reaching the needy with food across Abuja and Nigeria.</p>
         </div>
       </div>
     </footer>

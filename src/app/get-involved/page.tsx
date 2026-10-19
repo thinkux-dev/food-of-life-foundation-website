@@ -14,9 +14,9 @@ const ways = [
     icon: Banknote,
     label: "01",
     title: "Donate Food or Funds",
-    body: "Every contribution goes directly toward purchasing grains, cooking oil, food hampers, and essential supplies for widows, children, and vulnerable families in Kuje Area Council, Abuja.",
+    body: "Every contribution goes directly toward purchasing grains, cooking oil, food cartons, and essential supplies for widows, children, and vulnerable families in Abuja and across Nigeria.",
     image: images.donationBox,
-    imageAlt: "Food relief box being prepared for a family in Kuje",
+    imageAlt: "Food relief being shared with a family in Abuja",
     cta: (
       <Link href="/contact" className="btn-pill">
         Sponsor a food drive
@@ -28,10 +28,10 @@ const ways = [
     id: "volunteer",
     icon: HandHeart,
     label: "02",
-    title: "Volunteer in Kuje",
-    body: "Join our field team in Kuje for food sorting, packaging, and community outreach days — or lend your skills in media, logistics, medical checks, and community mobilization.",
+    title: "Volunteer with Us",
+    body: "Join our field team in Abuja and across Nigeria for food sorting, packaging, and community outreach days — or lend your skills in media, logistics, medical checks, and community mobilization.",
     image: images.volunteersLoft,
-    imageAlt: "Volunteers preparing donations",
+    imageAlt: "Volunteers walking into a community during outreach",
     cta: (
       <Link href="/contact" className="btn-outline">
         Join the volunteer team
@@ -43,10 +43,10 @@ const ways = [
     id: "partner",
     icon: Handshake,
     label: "03",
-    title: "Partner with us",
-    body: "Churches, food producers, businesses, and civic organizations in Abuja can co-host a Kuje community feeding outreach or sponsor staple food supplies in bulk.",
-    image: images.foodPacks,
-    imageAlt: "Community members preparing food packs together",
+    title: "Partner with Us",
+    body: "Churches, mosques, food producers, businesses, and civic organizations across Abuja and Nigeria can co-host a community feeding outreach or sponsor staple food supplies in bulk.",
+    image: images.stakeholdersMeeting,
+    imageAlt: "Food of Life Foundation leadership and partners",
     cta: (
       <Link href="/contact" className="btn-primary">
         Start a partnership
@@ -62,10 +62,10 @@ export default function GetInvolved() {
       <section className="container-page pt-14 md:pt-20 pb-16">
         <div className="max-w-2xl">
           <p className="font-display italic text-lg text-clay mb-5">
-            Three ways to serve Kuje with us
+            Three ways to serve with us
           </p>
           <h1 className="font-display text-4xl md:text-5xl text-dusk leading-tight">
-            Share food, time, or partnership to lift a household in Kuje.
+            Share food, time, or partnership to lift a household across Nigeria.
           </h1>
         </div>
       </section>

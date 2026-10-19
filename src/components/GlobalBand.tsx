@@ -4,10 +4,10 @@ import { useInView } from "@/hooks/useInView";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 1,    suffix: "",  label: "Heart of our mission — Kuje Area Council, Abuja" },
+  { value: 1,    suffix: "",  label: "Headquartered in Abuja, FCT — serving across Nigeria" },
   { value: 3,    suffix: "",  label: "Core pillars — Food relief, widows care & children" },
-  { value: 100,  suffix: "%", label: "Direct community outreach to families on the ground" },
-  { value: null, suffix: "∞", label: "Commitment — because no family in Kuje should go hungry" },
+  { value: 100,  suffix: "%", label: "Direct grassroots outreach to families on the ground" },
+  { value: null, suffix: "∞", label: "Commitment — reaching the needy with food across the Nation" },
 ];
 
 function AnimatedNumber({

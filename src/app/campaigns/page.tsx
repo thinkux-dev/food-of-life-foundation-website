@@ -21,15 +21,15 @@ export default function Campaigns() {
       <section className="container-page pt-14 md:pt-20 pb-16">
         <div className="max-w-2xl">
           <p className="font-display italic text-lg text-clay mb-5">
-            Our work in Kuje, Abuja
+            Our work across Abuja &amp; Nigeria
           </p>
           <h1 className="font-display text-4xl md:text-5xl text-dusk leading-tight">
             Outreaches completed, and what we&rsquo;re preparing next.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-            Here is every food drive and welfare campaign we have carried out in
-            Kuje Area Council, alongside the upcoming outreaches we are raising
-            support for right now.
+            Here is every food drive and welfare campaign we have carried out,
+            alongside the upcoming outreaches we are raising support for across
+            Abuja and Nigeria.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function Campaigns() {
                 <div className="img-card relative aspect-[16/11] md:aspect-auto md:min-h-[260px] rounded-b-none md:rounded-r-none md:rounded-l-[20px]">
                   <Image
                     src={c.image}
-                    alt=""
+                    alt={c.title}
                     fill
                     loading="lazy"
                     sizes="(min-width: 768px) 35vw, 90vw"
@@ -121,7 +121,7 @@ export default function Campaigns() {
                   <div className="img-card relative aspect-[16/11] md:aspect-auto md:min-h-[240px] rounded-b-none md:rounded-r-none md:rounded-l-[20px]">
                     <Image
                       src={c.image}
-                      alt=""
+                      alt={c.title}
                       fill
                       sizes="(min-width: 768px) 35vw, 90vw"
                       className="object-cover"

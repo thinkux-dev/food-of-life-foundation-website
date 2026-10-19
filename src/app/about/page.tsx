@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 const values = [
   {
     title: "Food first, dignity always",
-    body: "We believe no person can thrive on an empty stomach. Every food pack and outreach in Kuje is delivered with warmth, respect, and honour.",
+    body: "We believe no person can thrive on an empty stomach. Every food pack and outreach across Abuja and Nigeria is delivered with warmth, respect, and honour.",
   },
   {
-    title: "Present on the ground in Kuje",
-    body: "We don't operate from a distance. We walk the streets and villages of Kuje Area Council, listening to community elders, widows, and families directly.",
+    title: "Present on the ground",
+    body: "We don't operate from a distance. We walk the streets, schools, and communities of Abuja and beyond, listening to elders, widows, and families directly.",
   },
   {
     title: "Accountable & transparent",
@@ -28,12 +28,12 @@ export default function About() {
         <div className="max-w-2xl">
           <p className="font-display italic text-lg text-clay mb-5">About us</p>
           <h1 className="font-display text-4xl md:text-5xl text-dusk leading-tight">
-            Nourishing Kuje communities with compassion and consistency.
+            Reaching the needy with food across the Nation.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-            Food of Life Foundation is a humanitarian initiative dedicated to
+            Food of Life Foundation is a humanitarian organization dedicated to
             combating hunger, supporting widows, and caring for vulnerable
-            children and families across Kuje Area Council, Abuja.
+            children and families in Abuja, FCT and across Nigeria.
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function About() {
       <section className="relative w-full aspect-[16/8] md:aspect-[16/6]">
         <Image
           src={images.communityGroup}
-          alt="Community outreach in Kuje, Abuja"
+          alt="Food of Life Foundation community outreach in Abuja, Nigeria"
           fill
           sizes="100vw"
           className="object-cover"
@@ -58,8 +58,8 @@ export default function About() {
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
               To eradicate hunger and restore hope among vulnerable families,
-              widows, and children in Kuje, Abuja through direct food relief,
-              nutritional care, and sustainable community support.
+              widows, and children across Abuja and Nigeria through direct food
+              relief, nutritional care, and sustainable community empowerment.
             </p>
           </div>
           <div>
@@ -68,8 +68,9 @@ export default function About() {
               Our vision
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
-              A thriving Kuje community — and a wider Nigeria — where no child,
-              widow, or vulnerable household goes to bed hungry or forgotten.
+              A thriving Nigeria — starting from Abuja and reaching every region
+              of the Nation — where no child, widow, or vulnerable household
+              goes to bed hungry or forgotten.
             </p>
           </div>
         </div>
@@ -100,27 +101,27 @@ export default function About() {
 
       <section className="container-page py-20 md:py-24">
         <div className="grid lg:grid-cols-[1fr_1fr] gap-14 items-center">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
-              src={images.foodPacks}
-              alt="Volunteers preparing food relief packages for Kuje families"
+              src={images.stakeholdersMeeting}
+              alt="Food of Life Foundation leadership and partners in Abuja"
               fill
-              sizes="(min-width: 1024px) 40vw, 90vw"
+              sizes="(min-width: 1024px) 45vw, 90vw"
               className="object-cover"
             />
           </div>
           <div>
             <div className="rule mb-6 max-w-[220px]" />
             <h2 className="font-display text-3xl text-dusk leading-tight">
-              Why Kuje, Abuja?
+              From Abuja to every corner of Nigeria
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
-              Kuje Area Council is home to vibrant rural and peri-urban
-              communities just outside Abuja&rsquo;s city centre, yet many
-              households face acute food insecurity and limited access to safety
-              nets. By focusing deeply on Kuje, our outreach team builds lasting
-              relationships with local families and ensures every food drive
-              reaches those who need it most.
+              Headquartered in Abuja, our field teams mobilize into area
+              councils, satellite towns, and underserved communities — from Kuje
+              and across the Federal Capital Territory to wider Nigeria. By
+              partnering with community leaders, food security initiatives, and
+              dedicated volunteers, we ensure every outreach reaches the
+              families who need it most.
             </p>
           </div>
         </div>

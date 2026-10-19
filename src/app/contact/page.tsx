@@ -18,15 +18,15 @@ export default function Contact() {
             We&rsquo;d love to hear from you.
           </h1>
           <p className="mt-6 text-[17px] leading-relaxed text-ink-soft max-w-md">
-            Whether you want to support an upcoming food outreach in Kuje,
-            refer a vulnerable household, or volunteer with our team — write to
-            us anytime.
+            Whether you want to support an upcoming food outreach in Abuja or
+            anywhere in Nigeria, refer a vulnerable household, or volunteer with
+            our team — write to us anytime.
           </p>
 
           <ul className="mt-10 space-y-5 text-[15px] text-ink-soft">
             <li className="flex items-start gap-3">
               <MapPin size={19} className="mt-0.5 text-clay shrink-0" aria-hidden="true" />
-              Kuje Area Council, Abuja, FCT, Nigeria
+              Abuja, FCT, Nigeria
             </li>
             <li className="flex items-start gap-3">
               <Mail size={19} className="mt-0.5 text-clay shrink-0" aria-hidden="true" />
