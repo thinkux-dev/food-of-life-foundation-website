@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: "Food of Life Foundation — Abuja, Nigeria",
   description:
     "Food of Life Foundation reaches the needy with food across the Nation — serving vulnerable families, widows, and children in Abuja and across Nigeria through food outreach, nutrition relief, and community empowerment.",
+  icons: {
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
 };
 
 export default function RootLayout({

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
@@ -9,9 +10,20 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
           {/* Brand blurb */}
           <div>
-            <p className="font-display text-2xl text-paper">
-              Food of Life <span className="italic text-gold-soft">Foundation</span>
-            </p>
+            <div className="flex items-center gap-3">
+              <div className="relative w-13 h-13 rounded-full overflow-hidden bg-white shrink-0">
+                <Image
+                  src="/logo.jpg"
+                  alt="Food of Life Foundation logo"
+                  fill
+                  sizes="52px"
+                  className="object-contain"
+                />
+              </div>
+              <p className="font-display text-2xl text-paper">
+                Food of Life <span className="italic text-gold-soft">Foundation</span>
+              </p>
+            </div>
             <p className="mt-4 text-[15px] leading-relaxed text-paper/60 max-w-xs">
               Reaching the needy with food across the Nation — fighting hunger
               and restoring hope for vulnerable families, widows, and children

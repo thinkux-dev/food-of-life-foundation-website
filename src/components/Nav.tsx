@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -22,14 +23,26 @@ export default function Nav() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex items-baseline gap-2 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
+          className="flex items-center gap-3 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
         >
-          <span className="font-display text-xl md:text-2xl text-dusk font-semibold">
-            Food of Life
-          </span>
-          <span className="font-display italic text-base md:text-lg text-clay">
-            Foundation
-          </span>
+          <div className="relative w-13 h-13 rounded-full overflow-hidden bg-white shrink-0">
+            <Image
+              src="/logo.jpg"
+              alt="Food of Life Foundation logo"
+              fill
+              sizes="52px"
+              className="object-contain"
+              priority
+            />
+          </div>
+          <div className="flex items-baseline gap-1.5">
+            <span className="font-display text-xl md:text-2xl text-dusk font-semibold">
+              Food of Life
+            </span>
+            <span className="font-display italic text-base md:text-lg text-clay">
+              Foundation
+            </span>
+          </div>
         </Link>
 
         {/* Desktop nav */}
