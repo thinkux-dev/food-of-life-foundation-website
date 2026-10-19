@@ -4,10 +4,10 @@ import { useInView } from "@/hooks/useInView";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 1,    suffix: "",  label: "Headquartered in Abuja, FCT — serving across Nigeria" },
-  { value: 3,    suffix: "",  label: "Core pillars — Food relief, widows care & children" },
-  { value: 100,  suffix: "%", label: "Direct grassroots outreach to families on the ground" },
-  { value: null, suffix: "∞", label: "Commitment — reaching the needy with food across the Nation" },
+  { value: 2025, suffix: "",  label: "Year the Foundation began its work", isYear: true },
+  { value: 3,    suffix: "",  label: "Core pillars — Food relief, widows care & children", isYear: false },
+  { value: 100,  suffix: "%", label: "Direct grassroots outreach to families on the ground", isYear: false },
+  { value: null, suffix: "∞", label: "Commitment — reaching the needy with food across the Nation", isYear: false },
 ];
 
 function AnimatedNumber({
@@ -15,11 +15,13 @@ function AnimatedNumber({
   suffix,
   inView,
   delay,
+  isYear,
 }: {
   target: number | null;
   suffix: string;
   inView: boolean;
   delay: number;
+  isYear?: boolean;
 }) {
   const [count, setCount] = useState(0);
   const started = useRef(false);
@@ -31,7 +33,7 @@ function AnimatedNumber({
     const numericTarget = target;
     const startTime = performance.now() + delay;
     const duration = 900;
-    const start = 0;
+    const start = isYear ? 2000 : 0;
 
     function tick(now: number) {
       if (now < startTime) {
@@ -46,11 +48,11 @@ function AnimatedNumber({
     }
 
     requestAnimationFrame(tick);
-  }, [inView, target, delay]);
+  }, [inView, target, delay, isYear]);
 
   if (target === null) return <>{suffix}</>;
   return (
-    <>{count.toLocaleString()}{suffix}</>
+    <>{isYear ? String(count) : count.toLocaleString()}{suffix}</>
   );
 }
 
@@ -73,6 +75,7 @@ export default function GlobalBand() {
                   suffix={s.suffix}
                   inView={inView}
                   delay={i * 120}
+                  isYear={s.isYear}
                 />
               </p>
               <p className="mt-2 text-[13px] leading-snug text-paper/65 max-w-[18ch]">

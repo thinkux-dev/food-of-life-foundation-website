@@ -26,14 +26,15 @@ export default function About() {
     <>
       <section className="container-page pt-14 md:pt-20 pb-16">
         <div className="max-w-2xl">
-          <p className="font-display italic text-lg text-clay mb-5">About us</p>
+          <p className="font-display italic text-lg text-clay mb-5">About us · Est. 2025</p>
           <h1 className="font-display text-4xl md:text-5xl text-dusk leading-tight">
             Reaching the needy with food across the Nation.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-            Food of Life Foundation is a humanitarian organization dedicated to
-            combating hunger, supporting widows, and caring for vulnerable
-            children and families in Abuja, FCT and across Nigeria.
+            Founded in 2025, Food of Life Foundation is a humanitarian
+            organization dedicated to combating hunger, supporting widows, and
+            caring for vulnerable children and families in Abuja, FCT and across
+            Nigeria.
           </p>
         </div>
       </section>
@@ -116,12 +117,12 @@ export default function About() {
               From Abuja to every corner of Nigeria
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
-              Headquartered in Abuja, our field teams mobilize into area
-              councils, satellite towns, and underserved communities — from Kuje
-              and across the Federal Capital Territory to wider Nigeria. By
-              partnering with community leaders, food security initiatives, and
-              dedicated volunteers, we ensure every outreach reaches the
-              families who need it most.
+              Since beginning our work in 2025 from our headquarters in Abuja,
+              our field teams mobilize into area councils, satellite towns, and
+              underserved communities — from Kuje and across the Federal Capital
+              Territory to wider Nigeria. By partnering with community leaders,
+              food security initiatives, and dedicated volunteers, we ensure
+              every outreach reaches the families who need it most.
             </p>
           </div>
         </div>

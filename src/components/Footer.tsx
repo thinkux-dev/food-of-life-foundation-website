@@ -25,9 +25,9 @@ export default function Footer() {
               </p>
             </div>
             <p className="mt-4 text-[15px] leading-relaxed text-paper/60 max-w-xs">
-              Reaching the needy with food across the Nation — fighting hunger
-              and restoring hope for vulnerable families, widows, and children
-              in Abuja and across Nigeria.
+              Founded in 2025 to reach the needy with food across the Nation —
+              fighting hunger and restoring hope for vulnerable families,
+              widows, and children in Abuja and across Nigeria.
             </p>
           </div>
 
@@ -72,20 +72,12 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={17} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
-                <div className="flex flex-col gap-1">
-                  <a
-                    href="tel:+2348119539062"
-                    className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
-                  >
-                    0811&nbsp;953&nbsp;9062
-                  </a>
-                  <a
-                    href="tel:+2348039483955"
-                    className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
-                  >
-                    0803&nbsp;948&nbsp;3955
-                  </a>
-                </div>
+                <a
+                  href="tel:+2348119539062"
+                  className="hover:text-gold-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
+                >
+                  0811&nbsp;953&nbsp;9062
+                </a>
               </li>
             </ul>
           </address>
@@ -93,8 +85,8 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-14 pt-8 border-t border-paper/10 flex flex-col md:flex-row gap-3 justify-between text-[13px] text-paper/45">
-          <p>© {new Date().getFullYear()} Food of Life Foundation. All rights reserved.</p>
-          <p>Reaching the needy with food across Abuja and Nigeria.</p>
+          <p>© 2025 Food of Life Foundation. All rights reserved.</p>
+          <p>Est. 2025 · Reaching the needy with food across Abuja and Nigeria.</p>
         </div>
       </div>
     </footer>

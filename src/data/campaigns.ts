@@ -19,7 +19,7 @@ export const campaigns: Campaign[] = [
     slug: "abuja-community-food-outreach",
     title: "Abuja Community Food & Provision Outreach",
     status: "completed",
-    period: "2026",
+    period: "2025",
     location: "Kuje & Area Councils, Abuja (FCT)",
     summary:
       "Direct distribution of staple food items, cartons of nourishment, cooking essentials, and household relief packages to vulnerable families, widows, and children in Abuja.",
@@ -32,7 +32,7 @@ export const campaigns: Campaign[] = [
     slug: "orphanage-and-children-feeding",
     title: "Orphanage & Vulnerable Children Care Visit",
     status: "completed",
-    period: "2026",
+    period: "2025",
     location: "Abuja, FCT",
     summary:
       "Walking alongside orphaned and vulnerable children in Abuja through food distributions, personal visits, and community care so no child grows up feeling forgotten.",
@@ -45,7 +45,7 @@ export const campaigns: Campaign[] = [
     slug: "zero-hunger-nationwide-drive",
     title: "Zero Hunger Nigeria — Monthly Food Bank Drive",
     status: "upcoming",
-    period: "Q4 2026 – 2027",
+    period: "2025 – 2026",
     location: "Abuja & Across Nigeria",
     summary:
       "Expanding our regular food distributions across underserved communities in Abuja and neighbouring states so vulnerable families have reliable access to staple grains, proteins, and cooking supplies.",
@@ -57,7 +57,7 @@ export const campaigns: Campaign[] = [
     slug: "nourish-and-educate",
     title: "Nourish & Educate — Children's Welfare Initiative",
     status: "upcoming",
-    period: "2027",
+    period: "2026",
     location: "Abuja & Nationwide",
     summary:
       "Combining child nutrition support with school supplies and educational assistance so vulnerable children across Nigeria can learn on a full stomach and stay in school.",
@@ -69,7 +69,7 @@ export const campaigns: Campaign[] = [
     slug: "widows-livelihood-program",
     title: "Widows' Livelihood & Food Security Program",
     status: "upcoming",
-    period: "2027",
+    period: "2026",
     location: "Abuja, FCT & Nigeria",
     summary:
       "Pairing emergency food relief with small trade support and agricultural/market micro-grants for widows to build sustainable family income.",

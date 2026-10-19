@@ -39,20 +39,12 @@ export default function Contact() {
             </li>
             <li className="flex items-start gap-3">
               <Phone size={19} className="mt-0.5 text-clay shrink-0" aria-hidden="true" />
-              <div className="flex flex-col gap-1.5">
-                <a
-                  href="tel:+2348119539062"
-                  className="hover:text-clay transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
-                >
-                  0811&nbsp;953&nbsp;9062
-                </a>
-                <a
-                  href="tel:+2348039483955"
-                  className="hover:text-clay transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
-                >
-                  0803&nbsp;948&nbsp;3955
-                </a>
-              </div>
+              <a
+                href="tel:+2348119539062"
+                className="hover:text-clay transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
+              >
+                0811&nbsp;953&nbsp;9062
+              </a>
             </li>
           </ul>
         </div>
